@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Work Sans", sans-serif;
+
+}
+
+.display,
+.quicklist-container
+
+{
+    display: flex;
+}
+
+
+header{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+
+
+
+
+
+
+nav{
+    max-width: 1140px;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 15px;
+    align-items: center;
+
+
+}
+
+nav h1{
+    font-size: 2rem;
+    font-weight: 900;
+
+}
+
+
+nav ul{
+    list-style: none;
+    gap: 3rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+
+}
+
+
+
+.header-container{
+    margin-top: 80px;
+    padding-bottom: 50px;
+}
+
+.head-part{
+    max-width: 800px;
+    text-align: center;
+    margin: auto;
+    
+    
+}
+
+.head-part h1{
+    font-size: 3rem;
+}
+
+.head-part p{
+    margin-top: 30px;
+
+
+}
+
+.explore{
+
+    width: 120px;
+    height: 50px;
+    margin-top: 30px;
+    background-color: #FF900E;
+    
+    border-radius: 8px;
+    border: none;
+    
+
+}
+.explore a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.bannerpic{
+    max-width: 1140px;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+
+.bannerpic img{
+ width: 100%;
+}
+
+/* picture section one  */
+
+.picture-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+
+}
+
+.quicklist-container{
+    max-width: 1140px;
+    margin: auto;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.wuick{
+
+color:#727272;
+font-weight: 400;
+
+}
+
+.freatures{
+    color: #FF900E;
+
+}
+
+
+.freatures-list h1{
+    font-size: 2rem;
+}
+
+.picture-section{
+    margin-left: 30px;
+
+}
+.picture-section div{
+    width: 300px;
+    
+}
+
+.picture-section img{
+    width: 100%;
+}
+
+.freatures-list{
+    margin-left: 2rem;
+    
+}
