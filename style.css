@@ -11,7 +11,10 @@
 }
 
 .display,
-.quicklist-container
+.quicklist-container,
+.love-enjoy,
+.achivement,
+.sponsorspart
 
 {
     display: flex;
@@ -119,7 +122,7 @@ nav ul{
 .quicklist-container{
     max-width: 1140px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 60px;
     align-items: center;
 }
 
@@ -156,4 +159,204 @@ font-weight: 400;
 .freatures-list{
     margin-left: 2rem;
     
+}
+
+
+/* Features you will love & enjoy */
+
+.love-enjoy{
+    max-width: 1140px;
+    margin: auto;
+    margin-top: 70px;
+
+
+}
+
+.listsystem{
+    max-width: 580px;
+}
+.loveenjoy h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+    border-left: 5px solid rgba(241, 85, 28, 0.932);
+    padding-left: 20px;
+}
+
+.loveenjoy p{
+    font-size: 0.9rem;
+    margin-top: 20px;
+}
+
+.one{
+    max-width: 600px;
+    height: 105px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 0px #0000005c;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.one h2{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.one p{
+    margin-top: 10px;
+}
+
+.lovepic{
+    max-width: 510px;
+    height: 740px;
+    margin-left: 49px;
+}
+
+.lovepic img{
+    width: 100%;
+    height: 100%;
+}
+
+.sells{
+    width: 243px;
+    height: 137px;
+    background-color: #FF900E;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    position: relative;
+    bottom: 94px;
+    left: -15px;
+}
+.sells h1{
+    font-size:3rem ;
+    font-weight: 900;
+}
+
+.sells p{
+    font-size: 1.2rem;
+
+}
+
+/* Some Facts */
+
+.Some-Facts{
+    max-width: 1140px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.Some-Facts h1{
+    font-size: 2.6rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Some-Facts p{
+    font-size: 0.9rem;
+    max-width: 450px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.achivement{
+
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 70px;
+}
+.achivement div{
+
+width: 190px;
+
+height: 190px;
+
+border-radius: 8px;
+
+border: 2px solid orange;
+
+text-align: center;
+
+padding: 15px;
+}
+
+.achivement h1{
+    font-size: 2.6rem;
+    font-weight: 700;
+    
+}
+
+.achivement p{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #727272;
+}
+
+.achivement img{
+    margin-top: 18px;
+
+}
+
+
+footer{
+    max-width: 1140px;
+    margin: auto;
+}
+
+
+.oursponspors{
+    max-width: 500px;
+    height: 130px;
+       margin: auto;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.oursponspors h1{
+    font-size: 2.5rem;
+    font-weight: 900;
+
+}
+
+.oursponspors p{
+    font-size: 0.9rem;
+    margin-top: 20px;
+}
+
+
+.sponsorspart{
+   justify-content: space-around;
+   margin-top: 30px;
+}
+.sponsorspart img{
+    filter: grayscale(100%);
+}
+
+
+.copyright{
+
+max-width: 1140px;
+
+margin: auto;
+
+height: 70px;
+
+border-radius: 9px;
+
+background-color: rgba(255, 144, 14, 0.1);
+
+font-size: 1.2rem;
+
+margin-top: 100px;
+
+display: flex;
+
+align-items: center;
+
+justify-content: center;
+
+font-weight: 500;
+
+margin-bottom: 200px;
 }
